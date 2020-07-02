@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="1000px"
+            android:layout_height="1200px"
+            android:baselineAligned="false">
+
+            <ImageButton
+                android:layout_width="78dp"
+                android:layout_height="75dp"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:layout_width="318dp"
+                android:layout_height="135dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="180dp"
+                android:src="@drawable/kaka" />
+
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="180dp"
+                android:text="휴대폰 번호를 입력해주시면 카톡으로 웨이팅 순서를 알려드려요!"
+                android:textColor="#33a6d9"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="280dp"
+                android:text="현재 대기팀"
+                android:textColor="#000000"
+                android:textSize="60dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="600dp"
+                android:text="남은 소요시간"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="670dp"
+                android:text="약 14분"
+                android:textColor="#33a6d9"
+                android:textSize="40dp" />
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="2px"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="660dp"
+                android:background="#48000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="390dp"
+                android:background="@drawable/oval"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+        <RelativeLayout
+            android:layout_width="1000px"
+            android:layout_height="1200px"
+            android:background="#000000">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="휴대폰 번호를 입력해주세요."
+                    android:textColor="#ffffff"
+                    android:textSize="25dp"
+                    android:layout_marginTop="30dp" />
+                <EditText
+                    android:layout_width="550dp"
+                    android:layout_height="50dp"
+                    android:background="#ffffff"
+                    android:layout_marginTop="35dp"/>
+                <View
+                    android:layout_width="480dp"
+                    android:layout_height="2px"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="45dp"
+                    android:background="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weight="1"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_marginTop="300px"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="15dp">
+
+                    <Button
+                        android:id="@+id/n1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#000000"
+                        android:text="1"
+                        android:textColor="#ffffff"
+                        android:textSize="80dp"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/n2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#000000"
+                        android:text="2"
+                        android:textColor="#ffffff"
+                        android:textSize="80dp"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/n3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#000000"
+                        android:text="3"
+                        android:textColor="#ffffff"
+                        android:textSize="80dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20px"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="15dp">
+
+                    <Button
+                        android:id="@+id/n4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#000000"
+                        android:text="4"
+                        android:textColor="#ffffff"
+                        android:textSize="80dp"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/n5"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#000000"
+                        android:text="5"
+                        android:textColor="#ffffff"
+                        android:textSize="80dp"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/n6"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#000000"
+                        android:text="6"
+                        android:textColor="#ffffff"
+                        android:textSize="80dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:weightSum="3"
+                    android:padding="15dp">
+
+                    <Button
+                        android:id="@+id/n7"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#000000"
+                        android:text="7"
+                        android:textColor="#ffffff"
+                        android:textSize="80dp"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/n8"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#000000"
+                        android:text="8"
+                        android:textColor="#ffffff"
+                        android:textSize="80dp"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/n9"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#000000"
+                        android:text="9"
+                        android:textColor="#ffffff"
+                        android:textSize="80dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="119dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:weightSum="3">
+
+                    <Button
+                        android:id="@+id/emty"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:textSize="80dp" />
+
+                    <Button
+                        android:id="@+id/n0"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:text="0"
+                        android:textColor="#ffffff"
+                        android:textSize="80dp" />
+
+                    <Button
+                        android:id="@+id/del"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:text="<-"
+                        android:textColor="#ffffff"
+                        android:textSize="80dp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="550dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#33a6d9"
+                    android:text="확인"
+                    android:textColor="#ffffff"
+                    android:textSize="40dp" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
